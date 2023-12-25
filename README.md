@@ -14,10 +14,10 @@ The features in the final system produced are:<br>
 1.  View all Ward Info<br>                    
 2.  Display Patient List[Extra: added a display for the amount patient owed and have paid]<br>                  
 3.  Admit Patient(user does this by inputing patient's IC's first four digits,name, ward, bed,date warded, will reject if bed is occupied already/or does not exist(bug found: system does not display proper error msg for bed does not exist))<br>                         
-4.  Discharge Patient(user does this by inputing patient's IC and Name that matches and exist in the system records,date discharged, system will kick visitors off from visiting and (extra)calculate charges)<br>                     
-5.  Remove Patient(user does this by inputing patient's IC and Name and confirming that they want to delete the patient's records(will not delete if patient have not been discharged and paid their dues fully))<br>                        
-6.  Register Visit<br>                        
-7.  End Visit<br>                             
+4.  Discharge Patient(user does this by inputing patient's IC and Name that matches and exist in the system records,date discharged, system will kick visitors off from visiting and (extra)calculate charges)<br>      
+5.  Remove Patient(user does this by inputing patient's IC and Name and confirming that they want to delete the patient's records(will not delete if patient have not been discharged and paid their dues fully))<br>
+6.  Register Visit(user does this by inputing patient's IC and Name, number of visitors(cannot exceed max visitors includes existing visitors), visitor's IC and Name(if existing records exist, will be prompted if changes need to be made or continue with existing records.))<br>                        
+7.  End Visit(user does this by inputing patient's IC and Name along side with the amount of visitor's ending their visit and their IC and Names)<br>                             
 8.  Display Ward Overview<br>        
 9.  Visitor List<br>                
 10. Payment Related<br>
@@ -54,26 +54,24 @@ The features in the final system produced are:<br>
   <img src="https://github.com/BlackNet13/ward_Management/assets/123053395/76b24ae9-e096-4f8a-a8fd-673780beafac" height ="200"/>
 
 </td>
-    <td>
-
-      
-      <img src="https://github.com/BlackNet13/C206_CaseStudy/assets/123053395/d0b05b04-da5f-4fa8-ae60-4e88a8d3aaae" height ="200"/>
+    <td>      
+      <img src="https://github.com/BlackNet13/ward_Management/assets/123053395/5d581007-bf8d-427a-a77b-53fede5e6622" height ="200"/>
     </td>
     </tr>
   <tr>
     <td>Patient List</td> 
-    <td>Student Menu</td>
+    <td>Ward Overview</td>
   </tr>
 </table>
 <table>
   <tr>
-    <td>
-      <img src="https://github.com/BlackNet13/C206_CaseStudy/assets/123053395/61662d72-1545-4834-a162-afbc146768f0" height ="200"/>
+    <td>   
+      <img src="https://github.com/BlackNet13/ward_Management/assets/123053395/2ced98b1-8b2c-48ec-a0a4-6ede409e2a56" height ="200"/>
     </td>
   </tr>
   <tr>
     <td>
-      Burn Down Chart
+      Visitor  List
     </td>
   </tr>
 </table>

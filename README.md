@@ -13,7 +13,8 @@ I was provided the skeleton base with the base loop for the options without any 
 The features in the final system produced are:<br>
 1.  View all Ward Info<br>                    
 2.  Display Patient List[Extra: added a display for the amount patient owed and have paid]<br>                  
-3.  Admit Patient<br>(user does this by inputing patient's IC's first four digits,name, ward, bed,date warded, will reject if bed is occupied already/or does not exist(bug found: system does not display proper error msg for bed does not exist))<br>                         
+3.  Admit Patient<br>
+    - user does this by inputing patient's IC's first four digits,name, ward, bed,date warded, will reject if bed is occupied already/or does not exist(bug found: system does not display proper error msg for bed does not exist))<br>                         
 4.  Discharge Patient(user does this by inputing patient's IC and Name that matches and exist in the system records,date discharged, system will kick visitors off from visiting and (extra)calculate charges)<br>      
 5.  Remove Patient(user does this by inputing patient's IC and Name and confirming that they want to delete the patient's records(will not delete if patient have not been discharged and paid their dues fully))<br>
 6.  Register Visit(user does this by inputing patient's IC and Name, number of visitors(cannot exceed max visitors includes existing visitors), visitor's IC and Name(if existing records exist, will be prompted if changes need to be made or continue with existing records.))<br>                        

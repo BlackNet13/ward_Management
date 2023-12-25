@@ -25,11 +25,14 @@ The features in the final system produced are:<br>
     - user does this by inputing patient's IC and Name along side with the amount of visitor's ending their visit and their IC and Names<br>                             
 8.  Display Ward Overview<br>        
 9.  Visitor List<br>                
-10. Payment Related<br>
+10. Payment Related[Extra]<br>
     - View Patient's Payables<br>
+        -> user does this by inputing patient's IC and Name that have existing payment owing<br>
     - Make Payment<br>
+        -> user does this by inputing patient's IC and Name and amount being paid(shows what is the remaining payment owed)<br>
     - Overwrite Debt<br>
-    - Overview<br>   
+        -> user does this by inputing patient's IC and Name and confirming to overwrite the debt of patient(clears the amount of owing, wont count as patient paying their debt but counts as a bad debt)<br>
+    - Overview<br>
 
 <hr>
 
@@ -80,6 +83,19 @@ The features in the final system produced are:<br>
     </td>
   </tr>
 </table>
+<table>
+  <tr>
+    <td>   
+      <img src="https://github.com/BlackNet13/ward_Management/assets/123053395/6bbc9121-0555-4c50-97ef-602281cf7ce7" height ="200"/>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Overview(payment)
+    </td>
+  </tr>
+</table>
+
 
 
 ## 🛠 Skills/Tools
